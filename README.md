@@ -10,7 +10,7 @@
 │  corpus.pth              #已经过处理的数据集
 │  dataload.py             #dataloader
 │  datapreprocess.py       #数据预处理
-│  LICENSE
+   serve.py                #聊天机器人服务器
 │  main.py               
 │  model.py       
 │  README.md
@@ -64,6 +64,10 @@ save_path = 'corpus.pth' #已处理的对话数据集保存路径
 $ python main.py chat 
 ```
 
+### 服务器
+```shell script
+$ python serve.py
+```
 
 * 退出聊天：输入`exit`, `quit`, `q`  均可
 
